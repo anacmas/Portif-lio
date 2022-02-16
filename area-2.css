@@ -1,0 +1,99 @@
+.area-2 {
+	flex-direction: column;
+	width: 45%;
+	line-height: 1.4em;
+}
+
+.tecnologias, .experiencia, .formacao {
+	margin-bottom: 50px;
+}
+
+h2 {
+	color: var(--branco-h23);
+	font-size: 1.7em;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 1px #000;
+	font-family: 'Open Sans',Andale Mono,monospace;
+}
+
+.linguagens {
+	display: flex;
+	justify-content: space-between;
+}
+
+.linguagens p {
+	color: var(--verde-data);
+}
+
+.tecnologias img {
+	width: 50px;
+	height: 50px;
+	opacity: 80%;
+	margin-bottom: 0.5rem;
+}
+
+.html, .css, .js, .python {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+h3 {
+	font-weight: bold;
+	margin-left: 10px;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	color: var(--branco-h23);
+	text-shadow: 1px 1px 1px #000000;	
+}
+
+.estagio-globo {
+	color: #c7ced9;
+}
+
+.estagio-globo img {
+	width: 20px;
+	height: 20px;
+	opacity: 80%;
+}
+
+.titulo-globo, .titulo-etec, .titulo-unesp, .titulo-boticario {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.data {
+	font-size: 0.8em;
+	color: var(--verde-data);
+	margin: 2px 0 10px 0;
+	font-family: 'Open Sans', Andale Mono, monospace;
+}
+
+b {
+	font-size: 15px;
+	color: #848e94;
+}
+
+.titulo-boticario img {
+	width: 40px;
+	height: 40px;
+	opacity: 80%;
+}
+
+.titulo-unesp img {
+	width: 60px;
+	height: 20px;
+	opacity: 80%;
+}
+
+.titulo-etec, .titulo-unesp {
+	margin-top: 30px;
+}
+
+.titulo-etec img {
+	width: 48px;
+	height: 20px;
+	opacity: 80%;
+}

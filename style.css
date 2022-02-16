@@ -1,0 +1,23 @@
+:root {
+	--branco: #FFF;
+	--azul-background: #283647;
+	--rosa-area-1: #C7A2C3;
+	--branco-h23: #e3e3e3;
+	--verde-data: #43bfa6;
+
+}
+
+body {
+	background: var(--azul-background);
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.tres-areas {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3em;
+	justify-content: space-around;
+	margin-right: 1%;
+	margin-left:  1%;
+}
