@@ -33,7 +33,7 @@
 	background: #FFFFFF20;
 }
 
-.este-site {
+.este-site, .calculadora-imc {
 	width: 60%;
 	display: flex;
 	flex-direction: row;
@@ -42,6 +42,8 @@
 .descricao {
 	text-decoration: none;
 	color: var(--branco-h23);
+	width: 40%;
+	text-align: center;
 }
 
 .botoes a:visited {

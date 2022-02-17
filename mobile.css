@@ -136,6 +136,7 @@
 
     .area-3 h2 {
         text-transform: uppercase;
+        font-size: 1.5em;
         color: var(--branco);
         text-shadow: 2px 2px 1px #be7eb8;
     }
