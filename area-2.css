@@ -58,7 +58,7 @@ h3 {
 	opacity: 80%;
 }
 
-.titulo-globo, .titulo-etec, .titulo-unesp, .titulo-boticario {
+.titulo-globo, .titulo-etec, .titulo-unesp, .titulo-boticario, .titulo-unifesp {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -88,11 +88,11 @@ b {
 	opacity: 80%;
 }
 
-.titulo-etec, .titulo-unesp {
+.titulo-etec, .titulo-unesp, .titulo-boticario, .titulo-unifesp {
 	margin-top: 30px;
 }
 
-.titulo-etec img {
+.titulo-etec img, .titulo-unifesp img {
 	width: 48px;
 	height: 20px;
 	opacity: 80%;
