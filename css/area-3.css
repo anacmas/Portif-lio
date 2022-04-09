@@ -1,0 +1,52 @@
+.area-3 {
+	flex-direction: column;
+	width: 290px;
+}
+
+.secao {
+	background: #FFFFFF40;
+	height: 60px;
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	padding: 2%;
+	box-shadow: 2px 2px 8px 1px #05090f98;
+
+}
+
+.secao img {
+	width: 2.5rem;
+	height: 2.5rem;
+	opacity: 70%;
+}
+
+.divisao {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.divisao:hover {
+	transform: scale(1.02);
+	transition: 0.32s;
+	box-shadow: 2px 2px 8px 1px #05090F;
+	background: #FFFFFF20;
+}
+
+.este-site, .calculadora-imc, .meu-corretor {
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+}
+
+.descricao {
+	text-decoration: none;
+	color: var(--branco-h23);
+	width: 40%;
+	text-align: center;
+}
+
+.botoes a:visited {
+	text-decoration: none;
+	color: var(--branco-h23);
+}

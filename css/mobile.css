@@ -1,0 +1,143 @@
+@media screen and (max-width: 1023px) {
+
+	.tres-areas {
+		display: flex;
+		flex-direction: column;
+        margin: 2% 0;
+	}
+
+	.area-1 {
+		width: 100vw;
+		border-radius: 0px;
+        margin: 0 0 7%;
+        padding: 0;
+        box-shadow: 2px 2px 8px 3px #05090F;
+	}
+
+	.area1-texto-foto {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		align-content: center;
+	}
+
+	.foto {
+		width: 6rem;
+		height: 6rem;
+		align-items: flex-start;
+		border: none;
+		padding: 1em;
+	}
+
+	.informacoes-area-1 {
+		align-content: center;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+	}
+
+	.sobre-mim {
+		width: 100%;
+        padding: 9% 8% 5% 3%;
+	}
+
+    .sobre-mim p {
+        line-height: 1.3rem;
+    }
+
+	h1 {
+		width: 100%;
+        font-size: 1.5em;
+        line-height: 1.5rem;
+	}
+
+    .funcao {
+        display: none;
+    }
+
+    .redes-contato {
+        padding: 2% 4% 1%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .redes-contato nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .redes-contato  li {
+        display: inline;
+    }
+ 
+    .redes-contato img {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    .redes-contato ul {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .redes-contato p {
+        display: none;
+    }
+
+    .email p {
+        font-size: 0.6rem;
+    }
+
+    .area-2, .area-3 {
+        width: 80vw;
+        align-self: center;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tecnologias, .experiencia, .formacao {
+        margin-bottom: 4rem;
+    }
+
+    .linguagens {
+        margin-top: 2rem;
+    }
+
+    .linguagens img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .linguagens p {
+        display: flex;
+        justify-content: center;
+        color: var(--verde-data);
+        font-size: 0.95rem;
+        margin-top: 0.5rem;
+    }
+
+    .html, .css, .js, .python {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .percent {
+        display: none;
+    }
+
+    .area-3 h2 {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        color: var(--branco);
+        text-shadow: 2px 2px 1px #be7eb8;
+    }
+}
